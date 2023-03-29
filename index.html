@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <a href="/" class="main-logo">
+          <img src="/assets/images/logo.svg" alt="" />
+        </a>
+        <div id="overlay" class="overlay hidden"></div>
+        <nav class="nav">
+          <img
+            id="btnHamburger"
+            src="assets/images/icon-menu.svg"
+            alt=""
+            class="hamburger"
+          />
+          <img
+            id="btnCloseMenu"
+            src="assets/images/icon-menu-close.svg"
+            class="close-menu hidden"
+          />
+          <ul class="nav__links" id="mainMenu">
+            <li class="nav__link"><a href="/">Home</a></li>
+            <li class="nav__link"><a href="/">New</a></li>
+            <li class="nav__link"><a href="/">Popular</a></li>
+            <li class="nav__link"><a href="/">Trending</a></li>
+            <li class="nav__link"><a href="/">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-grid">
+        <div class="main-article">
+          <picture class="main-article__image">
+            <source
+              srcset="/assets/images/image-web-3-mobile.jpg"
+              media="(max-width: 600px)"
+            />
+            <img
+              src="assets/images/image-web-3-desktop.jpg"
+              alt="web 3.0 abstract image"
+            />
+          </picture>
+          <h1 class="main-article__title">The Bright Future of Web 3.0?</h1>
+          <div class="main-article__description">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a href="/" class="btn btn-accent">Read More</a>
+          </div>
+        </div>
+
+        <div class="new-articles">
+          <h2 class="new-articles__section-title">New</h2>
+          <div class="new-article">
+            <h3 class="new-article__title">Hydrogen VS Electric Cars</h3>
+            <p class="new-article__abstract">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <hr />
+          <div class="new-article">
+            <h3 class="new-article__title">The Downsides of AI Artistry</h3>
+            <p class="new-article__abstract">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <hr />
+          <div class="new-article">
+            <h3 class="new-article__title">Is VC Funding Drying Up?</h3>
+            <p class="new-article__abstract">
+              Private funding by VC firms is down 50%. YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+        <div class="popular-articles">
+          <div class="popular-article">
+            <img
+              src="assets/images/image-retro-pcs.jpg"
+              alt=""
+              class="popular-article__image"
+            />
+            <div class="popular-article__desccription-container">
+              <p class="popular-article__number">01</p>
+              <h4 class="popular-article__title">Reviving Retro PCs</h4>
+              <p class="popular-article__abstract">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </div>
+          <div class="popular-article">
+            <img
+              src="assets/images/image-top-laptops.jpg"
+              alt=""
+              class="popular-article__image"
+            />
+            <div class="popular-article__desccription-container">
+              <p class="popular-article__number">02</p>
+              <h4 class="popular-article__title">Top 10 Laptops of 2022</h4>
+              <p class="popular-article__abstract">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </div>
+          <div class="popular-article">
+            <img
+              src="assets/images/image-gaming-growth.jpg"
+              alt=""
+              class="popular-article__image"
+            />
+            <div class="popular-article__desccription-container">
+              <p class="popular-article__number">03</p>
+              <h4 class="popular-article__title">The Growth of Gaming</h4>
+              <p class="popular-article__abstract">
+                How the pandemic has sparked new opportunities
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
