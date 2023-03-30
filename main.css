@@ -62,15 +62,15 @@ ul {
 
 @font-face {
   font-family: "Inter";
-  src: url("../assets/fonts/static/Inter-Regular.ttf");
+  src: url("../NewsLandingPage/assets/fonts/static/Inter-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Inter Bold";
-  src: url("../assets/fonts/static/Inter-Bold.ttf");
+  src: url("../NewsLandingPage/assets/fonts/static/Inter-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Inter ExtraBold";
-  src: url("../assets/fonts/static/Inter-ExtraBold.ttf");
+  src: url("../NewsLandingPage/assets/fonts/static/Inter-ExtraBold.ttf") format("truetype");
 }
 .header-wrapper {
   display: flex;
